@@ -1,0 +1,23 @@
+{
+  "name": "mailbox-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owlhub/mailbox-cleaner.git"
+  },
+  "author": "Nitin Goyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owlhub/mailbox-cleaner/issues"
+  },
+  "homepage": "https://github.com/owlhub/mailbox-cleaner#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "emailjs-imap-client": "^3.1.0"
+  }
+}

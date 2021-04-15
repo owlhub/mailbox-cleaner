@@ -1,0 +1,113 @@
+{
+  "filters": [
+    {
+      "From": "notifications@github.com",
+      "header": [
+        "subject",
+        "Bump "
+      ]
+    },
+    {
+      "From": "notifications@github.com",
+      "To": "cezerin2@noreply.github.com"
+    },
+    {
+      "From": "notifications@github.com",
+      "To": "cezerin2-mono@noreply.github.com"
+    },
+    {
+      "From": "notifications@github.com",
+      "To": "cezerin2-store@noreply.github.com"
+    },
+    {
+      "From": "notifications@github.com",
+      "To": "cezerin2-admin@noreply.github.com"
+    },
+    {
+      "From": "info@mailer.netflix.com"
+    },
+    {
+      "From": "services@custcomm.icicibank.com"
+    },
+    {
+      "From": "newsletter@crunchbase.com"
+    },
+    {
+      "From": "no-reply@mail.instagram.com"
+    },
+    {
+      "From": "axisbank@service.axisbankmail.com"
+    },
+    {
+      "From": "IndiaMarketing@apjcomm.dell.com"
+    },
+    {
+      "From": "IndiGoCustomerFeedback@goindigo.in"
+    },
+    {
+      "From": "noreply@mailers.zomato.com"
+    },
+    {
+      "From": "support@codebeat.co",
+      "header": [
+        "subject",
+        "New Report for cezerin2"
+      ]
+    },
+    {
+      "From": "info@hirist.com",
+      "header": [
+        "subject",
+        "Unpublished Job Notification - "
+      ]
+    },
+    {
+      "From": "hackers@hackerrankmail.com",
+      "header": [
+        "subject",
+        "Can You Solve "
+      ]
+    },
+    {
+      "From": "notifications@owler.com",
+      "header": [
+        "subject",
+        " - Free for Owler Members"
+      ]
+    },
+    {
+      "From": "contact@snyk.io",
+      "header": [
+        "subject",
+        "Snyk Monthly: "
+      ]
+    },
+    {
+      "From": "info@pbengage.payback.in"
+    },
+    {
+      "From": "verify@unimartemaills.com"
+    },
+    {
+      "From": "member@msi.marketing"
+    },
+    {
+      "From": "deals@namecheap.com"
+    },
+    {
+      "From": "newsletters@fandom.com"
+    },
+    {
+      "From": "info@easemytrip.com"
+    },
+    {
+      "From": "no-reply@retailmarketing.hdfclife.com"
+    },
+    {
+      "From": "newsletter@bigshyft.co.in"
+    },
+    {
+      "From": "learners@pluralsight.com"
+    }
+  ]
+}
