@@ -108,6 +108,12 @@
     },
     {
       "From": "learners@pluralsight.com"
+    },
+    {
+      "From": "blog@zapier.com"
+    },
+    {
+      "From": "events@zapier.com"
     }
   ]
 }
