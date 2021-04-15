@@ -5,6 +5,8 @@ const { asyncForEach } = require('./lib/utils')
 const { filters } = require('./filters/gmail.json');
 
 (async function () {
+  let total = 0
+
   try {
     let confOption = {
       auth: {
@@ -36,6 +38,8 @@ const { filters } = require('./filters/gmail.json');
         await imap.deleteMessages('[Gmail]/All Mail', uidsToDelete, { byUid: true })
 
         await imap.moveMessages('[Gmail]/All Mail', uidsToDelete, '[Gmail]/Trash', { byUid: true })
+
+        total += uidsToDelete.length
       }
     })
 
@@ -43,5 +47,7 @@ const { filters } = require('./filters/gmail.json');
     await imap.close()
   } catch (err) {
     console.log(err)
+  } finally {
+    console.log(`Total Emails Deleted: ${total}`)
   }
 })()
