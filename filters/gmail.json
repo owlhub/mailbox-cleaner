@@ -114,6 +114,9 @@
     },
     {
       "From": "events@zapier.com"
+    },
+    {
+      "From": "info@emailer.apollo247.com"
     }
   ]
 }
